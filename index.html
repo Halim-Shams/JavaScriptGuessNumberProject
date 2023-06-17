@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/input.css" />
+		<title>Document</title>
+	</head>
+	<body class="bg-black">
+		<main class="">
+			<nav class="">
+				<button class="reload">Again!</button>
+				<p class="">< Between 1 and 20 ></p>
+			</nav>
+			<section class="main-section">
+				<h1 class="">Guess My Number!</h1>
+				<div class="box">
+					<div class="secret-box">
+						<p class="secret-number">?</p>
+					</div>
+					<hr class="line" />
+				</div>
+			</section>
+			<section class="detail-section">
+				<div class="left-section">
+					<input type="number" max="20" min="0" id="input" class="input" />
+					<button class="check">Check!</button>
+				</div>
+				<div class="right-section">
+					<p class="hint">Start guessing...</p>
+					<div class="scoring">
+						<p class="score">💯 Score: <span id="score">20</span></p>
+						<p class="high-score">🥇 Highscore: <span id="highScore"></span></p>
+					</div>
+				</div>
+			</section>
+			<footer class="">Build with 🧠 by Halim Shams</footer>
+		</main>
+	</body>
+
+	<script src="script.js"></script>
+</html>
